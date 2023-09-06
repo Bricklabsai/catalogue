@@ -41,7 +41,7 @@ const Gallery = () => {
               onClick={() => openImage(image)}
             >
               <img
-                src={`../src/assets/${image}`}
+                src={`../public/assets/${image}`}
                 alt={`Image ${index + 1}`}
                 className="w-full h-auto"
               />
@@ -61,7 +61,7 @@ const Gallery = () => {
               Close
             </button>
             <img
-              src={`../src/assets/${selectedImage}`}
+              src={`../public/assets/${selectedImage}`}
               alt={`Selected Image`}
               className="w-full h-auto"
             />

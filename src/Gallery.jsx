@@ -15,6 +15,29 @@ const Gallery = () => {
     'image10.png',
     'image11.png',
     'image12.png',
+    'image13.png',
+    'image14.png',
+    'image15.png',
+    'image16.png',
+    'image17.png',
+    'image18.png',
+    'image19.png',
+    'image20.png',
+    'image21.png',
+    'image22.png',
+    'image23.png',
+    'image24.png',
+    'image25.png',
+    'image26.png',
+    'image27.png',
+    'image28.png',
+    'image29.png',
+    'image30.png',
+    'image31.png',
+    'image32.png',
+    'image33.png',
+    'image34.png'
+    
   ];
 
   const [selectedImage, setSelectedImage] = useState(null);
@@ -41,7 +64,7 @@ const Gallery = () => {
               onClick={() => openImage(image)}
             >
               <img
-                src={`../public/assets/${image}`}
+                src={`/assets/${image}`}
                 alt={`Image ${index + 1}`}
                 className="w-full h-auto"
               />
@@ -61,7 +84,7 @@ const Gallery = () => {
               Close
             </button>
             <img
-              src={`../public/assets/${selectedImage}`}
+              src={`/assets/${selectedImage}`}
               alt={`Selected Image`}
               className="w-full h-auto"
             />
